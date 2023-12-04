@@ -1,8 +1,8 @@
-export default function Year({ year, setYear }) {
+export default function Year({ year, years, setYear }) {
   function handleYearSub() {
     const currentYear = +year;
 
-    if (currentYear > 1973) {
+    if (currentYear > 1993) {
       setYear(currentYear - 1);
     }
   }

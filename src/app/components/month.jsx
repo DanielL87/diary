@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Month({ month, setMonth, year }) {
+export default function Month({ month, setMonth, years }) {
   const monthNames = [
     "January",
     "February",

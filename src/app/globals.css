@@ -18,7 +18,43 @@ main {
   width: 200px;
 }
 
-/* .disabled {
-  pointer-events: none;
-  opacity: 0.5;
-} */
+#date-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.day-box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.selected-date {
+  background-color: lightblue;
+}
+.entry-emoji {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#edit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
